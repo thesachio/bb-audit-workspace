@@ -1,0 +1,31 @@
+# Data sensitif — jangan pernah di-commit
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.p12
+secrets.*
+credentials.*
+
+# Hermes runtime state
+state.db
+state.db-*
+sessions/
+memories/
+logs/
+cache/
+audio_cache/
+image_cache/
+pending/
+runtime/
+*.lock
+
+# Proyek audit (repositori target, punya .git sendiri)
+projects/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

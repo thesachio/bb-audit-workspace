@@ -1,0 +1,26 @@
+model:
+  default: deepseek-v4-flash
+  provider: deepseek
+  base_url: https://api.deepseek.com/v1
+_config_version: 50
+terminal:
+  cwd: /home/ubuntu/.hermes/profiles/bb/workspace
+auxiliary:
+  background_review:
+    enabled: false
+skills:
+  write_approval: true
+memory:
+  write_approval: true
+delegation:
+  max_iterations: 150
+  max_concurrent_children: 2
+approvals:
+  destructive_slash_confirm: false
+agent:
+  reasoning_effort: false
+display:
+  show_reasoning: true
+onboarding:
+  seen:
+    profile_build_offered: true
